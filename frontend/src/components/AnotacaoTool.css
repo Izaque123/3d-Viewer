@@ -1,0 +1,138 @@
+.btn-add {
+  width: 100%;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-add svg {
+  font-size: 0.9rem;
+}
+
+.btn-add:hover {
+  background-color: #2980b9;
+}
+
+.anotacao-form {
+  margin-bottom: 1rem;
+}
+
+.anotacao-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  resize: vertical;
+  margin-bottom: 0.75rem;
+}
+
+.anotacao-form textarea:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.form-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.form-actions button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.form-actions button[type='button'] {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.form-actions button[type='button']:hover {
+  background-color: #7f8c8d;
+}
+
+.form-actions .btn-primary {
+  background-color: #3498db;
+  color: white;
+}
+
+.form-actions .btn-primary:hover:not(:disabled) {
+  background-color: #2980b9;
+}
+
+.form-actions .btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.anotacoes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.anotacao-item {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  border-left: 3px solid #3498db;
+}
+
+.anotacao-texto {
+  font-size: 0.9rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.anotacao-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.anotacao-date {
+  font-size: 0.75rem;
+  color: #95a5a6;
+}
+
+.btn-delete-small {
+  background: none;
+  border: none;
+  color: #e74c3c;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.btn-delete-small svg {
+  font-size: 1rem;
+}
+
+.btn-delete-small:hover {
+  background-color: #fee;
+}
+
