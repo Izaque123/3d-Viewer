@@ -138,9 +138,6 @@ odonto3d/
 - Comparação de modelos (fase futura)
 - Armazenamento local (S3 em produção)
 
-## 📝 Licença
-
-Este é um projeto MVP para validação de mercado.
 
 ## 🤝 Contribuindo
 
