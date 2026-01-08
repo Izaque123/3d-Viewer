@@ -1,4 +1,4 @@
-# Odonto3D - Sistema de Visualização Odontológica 3D
+# Sistema de Visualização Odontológica 3D
 
 Sistema MVP para visualização, organização e planejamento odontológico básico com arcadas dentárias em 3D.
 
