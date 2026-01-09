@@ -1,4 +1,4 @@
-# Guia de Instalação - Odonto3D
+# Guia de Instalação
 
 ## 📋 Pré-requisitos
 
